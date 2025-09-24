@@ -13,14 +13,14 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyDNFfGuxhG1QG55vDNhEyPYtfD79ZByvsM",
+  authDomain: "dff-stream.firebaseapp.com",
+  projectId: "dff-stream",
+  storageBucket: "dff-stream.firebasestorage.app",
+  messagingSenderId: "723534931442",
+  appId: "1:723534931442:web:2593764e5ce46000c2776b"
 };
-const OWNER_UID = "";
+const OWNER_UID = "uivcffgjjj";
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
